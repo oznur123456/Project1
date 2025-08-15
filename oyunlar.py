@@ -1,9 +1,13 @@
-a = 5
-b = 6
-c = "3"
-d = "4"
-print(a*2)
-print(c*2)
-print(int(c)*2)
-print(str(a)*2)
-print((str(a)*2)*2)
+print("\033[1;33;40m")
+#print("╔"+"═"*20+"╗")
+print("╔═════════════════════╗")
+print("║\033[1;35;40m     HESAP MAK     \033[1;33;40m  ║")
+print("║                     ║")
+print("║  1-Toplama          ║")
+print("║  2-Çıkarma          ║")
+print("║  3-                 ║")
+print("║  4-                 ║")
+print("║                     ║")
+print("║    Seçimiz nedir?   ║")
+print("╚═════════════════════╝")
+
