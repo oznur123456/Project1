@@ -46,6 +46,11 @@ def anamenu():
         import not_hesaplama
         not_hesaplama.notlar()
     
+    elif secim == 7:
+        print("Carpim tablosunu seçtiniz.")
+        import carpim_tablosu
+        carpim_tablosu.carpim()
+
     anamenu()
 
 selamla()

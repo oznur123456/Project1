@@ -4,8 +4,8 @@ def oyun_menu():
     print("╔═════════════════════╗")
     print("║\033[1;35;40m    OYUNLAR MENU   \033[1;33;40m  ║")
     print("║                     ║")
-    print("║  1-Tetris           ║")
-    print("║  2-Adam asmaca      ║")
+    print("║  1-Tas Kagit Makas  ║")
+    print("║  2-Yazi Tura        ║")
     print("║  3-Yilan            ║")
     print("║  4-Sayi Tahmin      ║")
     print("║  5-Sayi Toplama     ║")
@@ -16,8 +16,14 @@ def oyun_menu():
     print("\033[0m") 
 
     ss = int(input())
-    if ss == 1 : print("Tetris basliyor...")
-    if ss == 2 : print("Adam asmaca basliyor...")
+    if ss == 1 : 
+        print("Tas kagit makas basliyor...")
+        import tas_kagit_makas
+        tas_kagit_makas.tkm()   
+    if ss == 2 : 
+        print("Yazi tura basliyor...")
+        import yazi_tura
+        yazi_tura.yt()
     if ss == 3 : 
         print("Yilan basliyor...")
         import snake

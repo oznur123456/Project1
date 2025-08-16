@@ -16,7 +16,8 @@ def tahmin():
 
         if tahmin == tutulan:
             print("Aferin, bildin!")
-            break
+            print ("Simdi oyunlar menusune yonlendiriliyorsunuz.")
+            import proje_oyunlar_menusu
         elif tahmin > tutulan:
             puan -= 100 / hak
             print("Tahminin tutulan sayidan büyük.")
@@ -26,6 +27,7 @@ def tahmin():
         else:
             print(f"Hakkin bitti. Tutulan sayi {tutulan} idi.")
 
-    print(f"Oyun bitti. Puanin: {int(puan)}")
+    print(f"Oyun bitti. Puanin: {int(puan)}. Simdi oyunlar menusune yonlendiriliyorsunuz.")
+    import proje_oyunlar_menusu
 
 tahmin()
