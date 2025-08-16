@@ -24,6 +24,6 @@ def tkm():
 
         devam = input("Tekrar oynamak ister misiniz? (e/h): ").lower()
         if devam != "e":
-            print("Oyun bitti.")
-            break
+            print("Oyun bitti. Simdi oyunlar menusune yonlendiriliyorsunuz.")
+            import proje_oyunlar_menusu
 tkm()
