@@ -7,8 +7,8 @@ def oyun_menu():
     print("║  1-Tetris           ║")
     print("║  2-Adam asmaca      ║")
     print("║  3-Yilan            ║")
-    print("║  4-                 ║")
-    print("║  5-                 ║")
+    print("║  4-Sayi Tahmin      ║")
+    print("║  5-Sayi Toplama     ║")
     print("║  6-Ana menüye dön   ║")
     print("║                     ║")
     print("║    Seçimiz nedir?   ║")
@@ -19,6 +19,10 @@ def oyun_menu():
     if ss == 1 : print("Tetris basliyor...")
     if ss == 2 : print("Adam asmaca basliyor...")
     if ss == 3 : print("Yilan basliyor...")
+    if ss == 5 : 
+        print("Sayi toplama basliyor...")
+        import sayi_toplama
+        sayi_toplama.sayilar()
     if ss == 6 :
         import proje_ana_ekrani
 

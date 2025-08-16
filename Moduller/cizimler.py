@@ -9,7 +9,8 @@ def cizim_menu():
     print("║  4-Cemberler        ║")
     print("║  5-Sekizgen         ║")
     print("║  6-Rastgele kareler ║")
-    print("║  7-Ana menüye dön   ║")
+    print("║  7-Rastgele sekiller║")
+    print("║  8-Ana menüye dön   ║")
     print("║                     ║")
     print("║  Seçiminiz nedir?   ║")
     print("╚═════════════════════╝")
@@ -22,7 +23,8 @@ def cizim_menu():
     elif s== 4: cemberciz()
     elif s== 5: sekizgenciz()
     elif s== 6: rastgeleciz()
-    elif s == 7:
+    elif s== 7: rastgele_sekiller()
+    elif s == 8:
         import proje_ana_ekrani
     
 def kareciz():
@@ -82,7 +84,7 @@ def rastgeleciz():
     import random as r, turtle as t
     t.speed(10)
     for b in range(r.randint(5,20)):
-        renkler = ["red","green","blue"]
+        renkler = ["olive","green","sky blue", "violet", "orange", "red", "magenta"]
         ku = r.randint(50,150)
         x = r.randint(-300,300)
         y = r.randint(-300,300)
@@ -93,6 +95,26 @@ def rastgeleciz():
         for a in range(4):
             t.forward(ku)
             t.right(90)
+    input()
+    cizim_menu()
+
+
+import random as r, turtle as t
+def rastgele_sekiller():
+    t.speed(10)
+    for b in range(r.randint(5,20)):
+        renkler = ["magenta", "black", "purple", "red","green","blue"]
+        ku = r.randint(50,150)
+        x = r.randint(-300,300)
+        y = r.randint(-300,300)
+        t.color(r.choice(renkler))
+        t.up() 
+        t.goto(x,y)
+        t.down()
+        ks = r.randint(3,7)
+        for a in range(ks):
+            t.forward(ku)
+            t.right(360/ks)
     input()
     cizim_menu()
 
