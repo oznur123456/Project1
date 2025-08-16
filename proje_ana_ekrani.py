@@ -17,7 +17,8 @@ def anamenu():
     print("║ 11-Cikis              ║")
     print("║   Seçiminiz nedir?    ║")
     print("╚═══════════════════════╝")
-    print("\033[0m")  
+    print("\033[0m") 
+     
     secim = int(input())
     print("Seçiminiz:",secim,"idi.")
 

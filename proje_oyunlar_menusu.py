@@ -15,18 +15,18 @@ def oyun_menu():
     print("╚═════════════════════╝")
     print("\033[0m") 
 
-    ss = input()
-    if ss == "1" : print("Tetris basliyor...")
+    ss = int(input())
+    if ss == 1 : print("Tetris basliyor...")
         import
-    if ss == "2" : print("Adam asmaca basliyor...")
+    if ss == 2 : print("Adam asmaca basliyor...")
         import
-    if ss == "3" : print("Yilan basliyor...")
+    if ss == 3 : print("Yilan basliyor...")
         import
-    if ss == "4" : print("Tetris basliyor...")
+    if ss == 4 : print("Tetris basliyor...")
         import
-    if ss == "5" : print("Tetris basliyor..")
+    if ss == 5 : print("Tetris basliyor..")
         import
-    if ss == "6":
+    if ss == 6 :
         import proje_ana_ekrani
 
 oyun_menu()
