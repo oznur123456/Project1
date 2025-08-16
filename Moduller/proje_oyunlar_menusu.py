@@ -18,7 +18,14 @@ def oyun_menu():
     ss = int(input())
     if ss == 1 : print("Tetris basliyor...")
     if ss == 2 : print("Adam asmaca basliyor...")
-    if ss == 3 : print("Yilan basliyor...")
+    if ss == 3 : 
+        print("Yilan basliyor...")
+        import snake
+        snake.snake_game()
+    if ss == 4 : 
+        print("Sayi tahmin oyunu basliyor...")
+        import sayi_tahmin
+        sayi_tahmin.tahmin()  
     if ss == 5 : 
         print("Sayi toplama basliyor...")
         import sayi_toplama
