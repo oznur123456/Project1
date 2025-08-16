@@ -8,7 +8,8 @@ def cizim_menu():
     print("║  3-Ucgen            ║")
     print("║  4-Cemberler        ║")
     print("║  5-Sekizgen         ║")
-    print("║  6-Ana menüye dön   ║")
+    print("║  6-Rastgele kareler ║")
+    print("║  7-Ana menüye dön   ║")
     print("║                     ║")
     print("║  Seçiminiz nedir?   ║")
     print("╚═════════════════════╝")
@@ -20,7 +21,8 @@ def cizim_menu():
     elif s== 3: ucgenciz()
     elif s== 4: cemberciz()
     elif s== 5: sekizgenciz()
-    elif s == 6:
+    elif s== 6: rastgeleciz()
+    elif s == 7:
         import proje_ana_ekrani
     
 def kareciz():
@@ -74,6 +76,24 @@ def sekizgenciz():
     for i in range(8):
         t.forward(50)
         t.left(45)
+    cizim_menu()
+
+def rastgeleciz():
+    import random as r, turtle as t
+    t.speed(10)
+    for b in range(r.randint(5,20)):
+        renkler = ["red","green","blue"]
+        ku = r.randint(50,150)
+        x = r.randint(-300,300)
+        y = r.randint(-300,300)
+        t.color(r.choice(renkler))
+        t.up() # t.penup()
+        t.goto(x,y)
+        t.down()
+        for a in range(4):
+            t.forward(ku)
+            t.right(90)
+    input()
     cizim_menu()
 
 
