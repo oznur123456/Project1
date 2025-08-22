@@ -13,8 +13,7 @@ def anamenu():
     print("║  7-Carpim Tablosu     ║")
     print("║  8-BMI Hesaplama      ║")
     print("║  9-Doviz Uygulamasi   ║")
-    print("║ 10-Sicaklik Hesaplama ║")
-    print("║ 11-Cikis              ║")
+    print("║ 10-Cikis              ║")
     print("║   Seçiminiz nedir?    ║")
     print("╚═══════════════════════╝")
     print("\033[0m") 
@@ -50,6 +49,12 @@ def anamenu():
         print("Carpim tablosunu seçtiniz.")
         import carpim_tablosu
         carpim_tablosu.carpim()
+
+    elif secim == 8:
+        print("BMI hesaplama seçtiniz.")
+        import BMI_hesaplama
+        BMI_hesaplama.bmi_hesapla()
+
 
     anamenu()
 
