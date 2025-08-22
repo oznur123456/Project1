@@ -7,7 +7,7 @@ def anamenu():
     print("║  1-Hesaplamalar       ║")
     print("║  2-Oyunlar            ║")
     print("║  3-Çizimler           ║")
-    print("║  4-Takvim             ║")
+    print("║  4-Rehber             ║")
     print("║  5-Ehliyet Uygunluk   ║")
     print("║  6-Not Hesaplama      ║")
     print("║  7-Carpim Tablosu     ║")
@@ -26,19 +26,24 @@ def anamenu():
         anamenu()
 
     elif secim == 1:
-        print("Hesaplamalari seçtiniz.")
+        print("Hesaplamalar uygulamasini seçtiniz.")
         import hesaplamalar
         hesaplamalar.hesapmenu()
         
     elif secim == 2: 
-        print("Oyunlar seçtiniz.")
+        print("Oyunlar uygulamasini seçtiniz.")
         import proje_oyunlar_menusu
         proje_oyunlar_menusu.oyun_menu()
     
     elif secim == 3:
-        print("Cizimleri seçtiniz.")
+        print("Cizimler uygulamasini seçtiniz.")
         import cizimler
         cizimler.cizim_menu()
+
+    elif secim == 4:
+        print("Rehber uygulamasini seçtiniz.")
+        import rehber
+        rehber.rehber_menu()
 
     elif secim == 5:
         print("Ehliyet uygunluk sorgulamayi seçtiniz.")
@@ -46,7 +51,7 @@ def anamenu():
         ehliyet_uygunluk.ehliyet()
 
     elif secim == 6:
-        print("Not hesaplamayi seçtiniz.")
+        print("Not hesaplama uygulamasini seçtiniz.")
         import not_hesaplama
         not_hesaplama.notlar()
     
@@ -56,12 +61,12 @@ def anamenu():
         carpim_tablosu.carpim()
 
     elif secim == 8:
-        print("BMI hesaplama seçtiniz.")
+        print("BMI hesaplama uygulamasini seçtiniz.")
         import BMI_hesaplama
         BMI_hesaplama.bmi_hesapla()
 
     elif secim == 9:
-        print("Toplam fiyat hesaplama seçtiniz.")
+        print("Toplam fiyat hesaplama uygulamasini seçtiniz.")
         import toplam_fiyat_hesaplama
         toplam_fiyat_hesaplama.toplam_fiyat_hesapla()
 
