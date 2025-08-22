@@ -8,7 +8,7 @@ def anamenu():
     print("║  2-Oyunlar            ║")
     print("║  3-Çizimler           ║")
     print("║  4-Takvim             ║")
-    print("║  5-Ritmik Sayma       ║")
+    print("║  5-Ehliyet Uygunluk   ║")
     print("║  6-Not Hesaplama      ║")
     print("║  7-Carpim Tablosu     ║")
     print("║  8-BMI Hesaplama      ║")
@@ -39,6 +39,11 @@ def anamenu():
         print("Cizimleri seçtiniz.")
         import cizimler
         cizimler.cizim_menu()
+
+    elif secim == 5:
+        print("Ehliyet uygunluk sorgulamayi seçtiniz.")
+        import ehliyet_uygunluk
+        ehliyet_uygunluk.ehliyet()
 
     elif secim == 6:
         print("Not hesaplamayi seçtiniz.")
