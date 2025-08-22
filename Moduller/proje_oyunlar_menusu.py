@@ -11,7 +11,7 @@ def oyun_menu():
     print("║  5-Sayi Toplama     ║")
     print("║  6-Ana menüye dön   ║")
     print("║                     ║")
-    print("║    Seçimiz nedir?   ║")
+    print("║   Seçiminiz nedir?  ║")
     print("╚═════════════════════╝")
     print("\033[0m") 
 
