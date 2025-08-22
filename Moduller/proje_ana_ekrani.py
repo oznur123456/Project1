@@ -12,7 +12,7 @@ def anamenu():
     print("║  6-Not Hesaplama      ║")
     print("║  7-Carpim Tablosu     ║")
     print("║  8-BMI Hesaplama      ║")
-    print("║  9-Doviz Uygulamasi   ║")
+    print("║  9-Fiyat Hesaplama    ║")
     print("║ 10-Cikis              ║")
     print("║   Seçiminiz nedir?    ║")
     print("╚═══════════════════════╝")
@@ -60,6 +60,15 @@ def anamenu():
         import BMI_hesaplama
         BMI_hesaplama.bmi_hesapla()
 
+    elif secim == 9:
+        print("Toplam fiyat hesaplama seçtiniz.")
+        import toplam_fiyat_hesaplama
+        toplam_fiyat_hesaplama.toplam_fiyat_hesapla()
+
+    elif secim == 10: 
+        print("Programdan cikiliyor.")
+    else:
+        print ("Gecersiz secim. Lutfen bir sayi giriniz.")
 
     anamenu()
 
