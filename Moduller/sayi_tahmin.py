@@ -29,5 +29,6 @@ def tahmin():
 
     print(f"Oyun bitti. Puanin: {int(puan)}. Simdi oyunlar menusune yonlendiriliyorsunuz.")
     import proje_oyunlar_menusu
+    proje_oyunlar_menusu.oyun_menu()
 
 tahmin()

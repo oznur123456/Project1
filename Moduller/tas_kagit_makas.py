@@ -1,7 +1,7 @@
 def tkm():
     import random
-    print("\nTAS-KAGIT-MAKAS OYUNU\n")
 
+    print("TAS-KAGIT-MAKAS OYUNU")
     secenekler = ["tas", "kagit", "makas"]
 
     while True:
@@ -26,4 +26,6 @@ def tkm():
         if devam != "e":
             print("Oyun bitti. Simdi oyunlar menusune yonlendiriliyorsunuz.")
             import proje_oyunlar_menusu
+            proje_oyunlar_menusu.oyun_menu()
+
 tkm()

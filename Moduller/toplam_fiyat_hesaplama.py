@@ -23,3 +23,5 @@ def urunleri_yazdir(urunler):
 urunler = urun_girisi()
 urunleri_yazdir(urunler)
 print(f"Toplam fiyat: {toplam_fiyat_hesapla(urunler):.2f} TL")
+
+toplam_fiyat_hesapla(urunler)

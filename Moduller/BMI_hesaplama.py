@@ -1,6 +1,7 @@
+print("BMI HESAPLAMA")
+print("Merhaba!")
+
 def bmi_hesapla(kilo, boy):
-    print("BMI HESAPLAMA")
-    print("Merhaba!")
     
     bmi = kilo / (boy ** 2)
     if bmi < 18.5:
@@ -20,3 +21,5 @@ bmi, kategori = bmi_hesapla(kilo, boy)
 
 print(f"Vücut Kitle İndeksiniz: {bmi:.2f}")
 print(f"Kategoriniz: {kategori}")
+
+bmi_hesapla(kilo,boy)

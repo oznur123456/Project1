@@ -47,6 +47,7 @@ while True:
     elif secim == "4":
         print("Rehber uygulamasindan cikiyorsunuz. Simdi ana menuye yonlendiriliyorsunuz.")
         import proje_ana_ekrani
+        proje_ana_ekrani.anamenu()
         
     else:
         print("Gecersiz secim, tekrar deneyin.")

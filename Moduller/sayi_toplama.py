@@ -13,7 +13,7 @@ def sayilar():
             print("Lutfen gecerli bir sayi giriniz (1/2/3).")
 
     puan = 0
-    olumlu = ["e", "evet", "evt", "olur", "devam", "ok", "x", " "]
+    olumlu = ["e", "evet", "evt", "olur", "devam", "ok", "x", " ", "okay", "tabi", "tabi ki"]
     devam = "e"
 
     while devam.lower() in olumlu:
@@ -28,6 +28,11 @@ def sayilar():
             print(f"Bilemedin, puanin {puan}.")
 
         devam = input("Devam etmek istiyor musun? ")
+        if devam.lower() not in olumlu:
+            print("Oyun bitti. Oyunlar menüsüne yönlendiriliyorsunuz...")
+            import proje_oyunlar_menusu
+            proje_oyunlar_menusu.oyun_menu()
+            break
 
 sayilar()
 

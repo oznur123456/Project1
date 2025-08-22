@@ -25,7 +25,9 @@ def cizim_menu():
     elif s== 6: rastgeleciz()
     elif s== 7: rastgele_sekiller()
     elif s == 8:
+        print("Islem bitti. Simdi ana menuye yonlendiriliyorsunuz.")
         import proje_ana_ekrani
+        proje_ana_ekrani.anamenu()
     
 def kareciz():
     import turtle
@@ -51,6 +53,7 @@ def dikdortgenciz():
         turtle.right(90)
         turtle.forward(60)
         turtle.right(90)
+    input()
     cizim_menu()
 
 def ucgenciz():
@@ -62,6 +65,7 @@ def ucgenciz():
         turtle.right(120)
         turtle.forward(100)
         turtle.right(120)
+    input()
     cizim_menu()
        
 def cemberciz():
@@ -70,6 +74,7 @@ def cemberciz():
     for i in range(11):
         turtle.circle(i)
         turtle.forward(20)
+    input()
     cizim_menu()
 
 def sekizgenciz():
@@ -78,6 +83,7 @@ def sekizgenciz():
     for i in range(8):
         t.forward(50)
         t.left(45)
+    input()
     cizim_menu()
 
 def rastgeleciz():
@@ -117,6 +123,5 @@ def rastgele_sekiller():
             t.right(360/ks)
     input()
     cizim_menu()
-
 
 cizim_menu()
