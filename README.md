@@ -1,6 +1,6 @@
 # PROJECT I
 
-\n<img width="238" height="333" alt="image" src="https://github.com/user-attachments/assets/a7f724d0-f12d-4a1d-b76f-c5b151390f17" />\n
+<img width="238" height="333" alt="image" src="https://github.com/user-attachments/assets/a7f724d0-f12d-4a1d-b76f-c5b151390f17" />\
 
 <img width="406" height="370" alt="image" src="https://github.com/user-attachments/assets/ba36596b-55f2-4baa-83c5-dc1669ad217c" />
 
