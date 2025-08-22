@@ -23,3 +23,4 @@ print(f"Vücut Kitle İndeksiniz: {bmi:.2f}")
 print(f"Kategoriniz: {kategori}")
 
 bmi_hesapla(kilo,boy)
+
