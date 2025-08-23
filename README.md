@@ -1,7 +1,7 @@
 # PROJECT I
 
 ## PROJE ANA EKRANI
-Ana menuden yapmak istediginiz islemi secebilirsiniz
+### Ana menuden yapmak istediginiz islemi secebilirsiniz
 <img width="238" height="333" alt="image" src="https://github.com/user-attachments/assets/a7f724d0-f12d-4a1d-b76f-c5b151390f17" />\
 
 ## 1. HESAPLAMALAR
